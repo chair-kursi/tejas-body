@@ -1,0 +1,103 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Web related
+/web/build/
+
+# Windows related
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+
+# macOS related
+/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux related
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.pem
+*.key
+*.p12
+*.jks
+
+# Firebase related (if you add Firebase later)
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/lib/firebase_options.dart
+
+# Coverage reports
+coverage/
+lcov.info
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+logs/
+*.log
+
+# Database files (if using local storage)
+*.db
+*.sqlite
+*.sqlite3
+
+# API documentation files (if generated)
+doc/api/
+
+# Platform specific build files
+*.apk
+*.aab
+*.ipa
+*.app
